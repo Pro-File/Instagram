@@ -1,5 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap');
+:root{
+  --light: 400;
+  --semi-bold: 600;
+  --bold: 700;
+  --para-font: 'Quicksand', sans-serif;
+}
 *{
   margin: 0;
   padding: 0;
   border: 0;
+}
+.App{
+  background-color: #fafafa;
+  height: 100vh;
+  font-family: var(--para-font);
+  font-weight: lighter;
+  overflow-x: hidden;
+}
+.app_Header{
+  background-color: #ffff;
+  border-bottom: 1px solid black;
+}
+.app_HeaderImage{
+  object-fit: contain;
+  padding: 20px;
+}
+
+/* Posts  */
+.posts{
+  max-width: 420px;
+  /* border: 1px solid black; */
+  box-shadow: 2px 2px 20px 0px rgba(128, 128, 128, 0.5);
+  margin-bottom: 45px;
+}
+.post_Header{
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+
+}
+.post_Avatar{
+  margin: 5px 5px;
+
+}
+.post_Image{
+  width: 100%;
+  object-fit: contain;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+}
+.post_Caption{
+  padding: 10px 20px;
+  font-weight: bolder;
 }
