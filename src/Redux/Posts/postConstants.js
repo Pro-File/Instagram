@@ -1,0 +1,2 @@
+export const SET_POSTS = "SET_POSTS";
+export const REMOVE_ALL_PRODUCTS = "REMOVE_ALL_PRODUCTS ";
